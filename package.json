@@ -1,0 +1,9 @@
+{
+  "scripts": {
+  "start": "npx functions-framework --target=helloHttp --port 4050",
+  "dev": "npx functions-framework --target=helloHttp --port 4050 --debug"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^3.4.4"
+  }
+}
